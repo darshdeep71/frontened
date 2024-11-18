@@ -26,6 +26,7 @@ function Homepage() {
       } )
       result = await result.json();
       console.log(result);
+      alert("submitted");
 
     }
 
@@ -42,6 +43,9 @@ function Homepage() {
           <button onClick={submit}>Signup</button>
         </form>
       </div>
+      <br></br>
+
+      <button>checking</button>
 
     </div>
   )
