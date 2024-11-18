@@ -45,7 +45,7 @@ function Homepage() {
       </div>
       <br></br>
 
-      <button>checking</button>
+      <button>checkinge</button>
 
     </div>
   )
