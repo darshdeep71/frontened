@@ -70,7 +70,7 @@ function Homepage() {
                 <label>Free Giveaway</label>
                 <img src={tick}></img>
               </div>
-              <input type='text' value={f} placeholder='111' style={{ display: "non" }}></input>
+              <input type='text' value={f} placeholder='111' style={{ display: "none" }}></input>
               <input type='text' placeholder='enter upi id' onChange={(u) => setUpid(u.target.value)}></input>
               {/* <input type='text' placeholder='password' onChange={(p) => setPass(p.target.value)}></input> <br></br> <br></br> */}
               <button onClick={submit}>Submit</button>
