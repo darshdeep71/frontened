@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#detail {
+    /* background-color: aquamarine; */
+    color: black;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+#detail img {
+    width: 30px;
+}

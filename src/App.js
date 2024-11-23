@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Homepage from './pages/homepage';
+import Submitted from './pages/submitted';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -19,8 +24,16 @@ function App() {
           Learn React
         </a>
       </header> */}
+      
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Homepage></Homepage>}></Route>
+        <Route path='/done' element={<Submitted></Submitted>}></Route>
+      </Routes>
+      </BrowserRouter>
 
-      <Homepage></Homepage>
+      {/* <Homepage></Homepage> */}
+      {/* <Submitted></Submitted> */}
 
     </div>
   );
