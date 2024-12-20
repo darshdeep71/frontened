@@ -77,3 +77,6 @@ form button {
     border-radius: 100px;
     margin-top: -10px;
 }
+form button:hover {
+    background-color: #3658ad;
+}
