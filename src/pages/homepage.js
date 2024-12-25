@@ -75,13 +75,14 @@ function Homepage() {
           <Col className='box'>
             <form>
               <div id='label'>
-                <label>Free Giveaway</label>
+                {/* <label>Free Giveaway</label> */}
+                <label>Over</label>
                 <img src={tick}></img>
               </div>
               <input type='text' value={f} style={{ display: "none" }}></input>
               <input type='text' value={t} style={{ display: "none" }}></input>
-              <input type='text' placeholder='enter upi id' onChange={(u) => setUpid(u.target.value)}></input>
-              <button onClick={submit}>Submit</button>
+              <input type='text' placeholder='enter upi id' onChange={(u) => setUpid(u.target.value)} style={{ display: "none" }}></input>
+              <button onClick={submit} style={{ display: "none" }}>Submit</button>
             </form>
           </Col>
         </Row>
