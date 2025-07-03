@@ -7,6 +7,19 @@ import tick from "./images/tick.svg"
 
 function Submitted() {
 
+  let a = 1;
+  let c = setInterval(ff, 2000)
+  function ff() {
+    if(a===5) {
+      console.log("end")
+      clearInterval(c)
+    }
+    else {
+      a++;
+      console.log(a)
+    }
+  }
+
   // function f1() {
   //   localStorage.clear();
   //   window.location.href = "/";
